@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>@ViewBag.Title - ProjectManagementSystem</title>
+	@Styles.Render("~/Content/css")
+	@Scripts.Render("~/bundles/modernizr")
+	<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+	<link href="~/Content/Style.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+	@RenderSection("head", required:false)
+	</head>
+<body>
+	<div class="container">
+		<ul class="menu cf">
+			<li>@Html.ActionLink("Home", "Index", "Home")</li>
+			<li>
+				<a href="">User</a>
+				<ul class="submenu">
+					<li>
+						l
+						<a href="/Home/UserInfo">Resister User</a>
+					</li>
+					<li>
+						<a href="/Home/UserList">View User List</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="">Project</a>
+				<ul class="submenu">
+					<li>
+						<a href="/Home/SaveProject">Save Project</a>
+					</li>
+					<li>
+						<a href="/Home/ViewAllProject">View All Project</a>
+					</li>
+					<li>
+						<a href="/Home/ProjectDetails">View Project Details</a>
+					</li>
+					<li>
+						<a href="/Home/ProjectList">View All Project List</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="">Assign Person</a>
+				<ul class="submenu">
+					<li>
+						<a href="/Home/AssignResourcePerson">Assign Person To Project</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="">Task</a>
+				<ul class="submenu">
+					<li>
+						<a href="/Home/CreateTask">Add a Task</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="">Comment</a>
+				<ul class="submenu">
+					<li>
+						<a href="/Home/AddComment">Add a Comment</a>
+					</li>
+					<li>
+						<a href="/Home/ViewTaskComment">View comments of a Task</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="container body-content">
+		@RenderBody()
+		<hr />
+		<footer>
+			<br/>
+			<br/>
+			<p align="center">
+				&copy; @DateTime.Now.Year - Developed by Md. Nayeem Hossen.<br />
+				Student Of Daffodil International University.<br />
+				Freelance Developer.<br />
+				Email:<i> <u>nayeem.hossen@outlook.com.</u></i>
+			</p>
+		</footer>
+	</div>
+
+	@Scripts.Render("~/bundles/jquery")
+	@Scripts.Render("~/bundles/bootstrap")
+	<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+	<script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('#dataTable').DataTable();
+		})
+	</script>
+	@RenderSection("scripts", required: false)
+</body>
+</html>

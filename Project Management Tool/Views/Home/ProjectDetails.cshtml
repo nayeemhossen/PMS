@@ -1,0 +1,134 @@
+﻿@model Project_Management_Tool.Models.tb_ProjectInfo
+@{
+	ViewBag.Title = "ProjectDetails";
+}
+<h2 align="center">
+	<u><b>Project Details</b></u>
+</h2>
+<div>
+	<hr />
+	<dl class="dl-horizontal">
+		<dt>
+			@Html.DisplayNameFor(model => model.Name)
+		</dt>
+		<dd>
+			@Html.DisplayFor(model => model.Name)
+		</dd><br />
+		<dt>
+			@Html.DisplayNameFor(model => model.CodeName)
+		</dt>
+		<dd>
+			@Html.DisplayFor(model => model.CodeName)
+		</dd><br />
+		<dt>
+			@Html.DisplayNameFor(model => model.Description)
+		</dt>
+		<dd>
+			@Html.DisplayFor(model => model.Description)
+		</dd><br />
+		<dt>
+			@Html.DisplayNameFor(model => model.Status)
+		</dt>
+		<dd>
+			@Html.DisplayFor(model => model.Status)
+		</dd><br />
+		<dt>
+			@Html.DisplayNameFor(model => model.StartDate)
+		</dt>
+		<dd>
+			@Convert.ToDateTime(Model.StartDate).ToString("dd/MM/yyyy")
+		</dd><br />
+		<dt>
+			@Html.DisplayNameFor(model => model.EndDate)
+		</dt>
+		<dd>
+			@Convert.ToDateTime(Model.EndDate).ToString("dd/MM/yyyy")
+		</dd><br />
+		<dt>
+			@Html.DisplayNameFor(model => model.Duration)
+		</dt>
+		<dd>
+			@Html.DisplayFor(model => model.Duration)
+		</dd><br />
+		<dt>
+			@Html.DisplayNameFor(model => model.UploadFile)
+		</dt>
+		<dd>
+			@Html.DisplayFor(model => model.UploadFile)
+		</dd><br />
+		<dt>
+			<br />@Html.DisplayName("Assign Member")
+		</dt>
+		<dd>
+			<table cellpadding="5" cellspacing="20" border="" color="black">
+				@{foreach (var projectAssignMember in ViewBag.assignMember)
+					{
+					<thead>
+						<td>@projectAssignMember.PersonName </td>
+					</thead>
+					}
+				}
+			</table>
+		</dd><br />
+	</dl>
+
+</div>
+<p>
+	<a href="@Url.Action("EditProject","Home",new{projectId=Model.ProjectInfoId})" class="btn btn-primary">Edit</a>
+	@Html.ActionLink("Back to List", "ProjectList")
+</p>
+<hr />
+<div>
+	@*@{
+			var listCount = Enumerable.Count(ViewBag.taskList);
+		}
+		<b><u>Task List</u>(Total: @listCount)</b>*@
+
+	<b><u>Task List</u>(Total: <span id="Count"></span>)</b>
+	<p align="right">
+		<u>
+			<a href="CreateTask">Create Task</a>
+		</u>
+	</p>
+	<div>
+		<table width="100%" class="table-bordered" id="tskList">
+			<thead>
+				<tr>
+					<th style="width: 35%">Description</th>
+					<th style="width: 20%">Assign To</th>
+					<th style="width: 10%">Priority</th>
+					<th style="width: 20%">Assign By</th>
+					<th style="width: 15%">Due Date</th>
+				</tr>
+			</thead>
+			<tbody>
+				@{ if (ViewBag.taskList != null)
+					{
+						foreach (var taskList in ViewBag.taskList)
+						{
+							<tr id="trCount">
+								<td>@taskList.Description</td>
+								<td>@taskList.UserId</td>
+								<td>@taskList.Priority</td>
+								<td></td>
+								<td>@taskList.DueDate.ToString("dd-MMM-yy")</td>
+
+							</tr>
+						}
+					}
+				}
+			</tbody>
+		</table>
+	</div>
+</div>
+@section Scripts {
+	<script type="text/javascript">
+		// This will make every element with the class "date-picker" into a DatePicker element
+		$(function () {
+			$('.date-picker').datepicker();
+			var rowCount = $('#tskList tr').length-1;
+			$('#Count').text(rowCount);			
+		});
+		
+	</script>
+}

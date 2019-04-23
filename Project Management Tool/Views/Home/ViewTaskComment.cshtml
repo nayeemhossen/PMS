@@ -1,0 +1,144 @@
+﻿@model Project_Management_Tool.Models.tb_TaskComment
+@{
+	ViewBag.Title = "ViewTaskComment";
+}
+
+<h2 align="center">
+	<u><b>View Comment of A Task</b></u>
+</h2>
+@using (Html.BeginForm())
+{
+	@Html.AntiForgeryToken()
+	<div class="form-horizontal">
+		<hr/>
+		@Html.ValidationSummary(true, "", new {@class = "text-danger"})
+		<div class="form-group">
+			@Html.Label("Select Project", htmlAttributes: new {@class = "control-label col-md-2"})
+			<div class="col-md-10">
+				@Html.DropDownListFor(model => model.ProjectId, ViewBag.ProjectName as SelectList, "--Select Project Name--", new {@id = "ddlProjectId", @class = "form-control col-md-6 col-xs-6"})
+				@Html.ValidationMessageFor(model => model.ProjectId, "", new {@class = "text-danger"})
+			</div>
+		</div>
+		<div class="form-group">
+			@Html.LabelFor(model => model.TaskId, htmlAttributes: new {@class = "control-label col-md-2"})
+			<div class="col-md-10">
+				<select name="taskId" id="ddlTaskId" class="form-control col-md-6 col-xs-6"></select>
+				@Html.ValidationMessageFor(model => model.TaskId, "", new {@class = "text-danger"})
+			</div>
+		</div>
+		<hr />
+		<div>			
+			<b><u>Comments</u>(Total: <span id="Count"></span>)</b>
+			<p align="right">
+				<u>
+					<a href="AddComment">New Comment</a>
+				</u>
+			</p>
+			<div>
+				<table width="100%" class="table-bordered" id="tblCmnt">
+					<thead>
+						<tr>
+							<th style="width: 3%">Sl No.</th>
+							<th style="width: 35%">Comment</th>
+							<th style="width: 20%">Assign By</th>
+							<th style="width: 15%">Comment Date & Time </th>
+						</tr>
+					</thead>
+					<tbody>
+						@{ if (ViewBag.ViewTaskComment != null)
+						   {
+							   int count = 1;
+								foreach (var taskCommentList in ViewBag.ViewTaskComment)
+								{
+									<tr id="trCount">
+										<td>@count</td>
+										<td>@taskCommentList.Cmnt</td>
+										<td>@taskCommentList.AssignBy</td>									
+										<td>@taskCommentList.CommentDateTime.ToString("dd-MMM-yy")</td>
+									</tr>
+									count++;
+								}
+							}
+						}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+}
+	@section Scripts {
+		<script type="text/javascript">
+			// This will make every element with the class "date-picker" into a DatePicker element
+			$(document).ready(function() {
+				$('.date-picker').datepicker();
+				var rowCount = $('#tblCmnt tr').length - 1;
+				$('#Count').text(rowCount);
+				
+
+				$("#ddlProjectId").change(function() {
+					$("#ddlTaskId").empty();
+					var projectId = $("#ddlProjectId").val();
+					var jasonData = { projectId: projectId };
+					$("#ddlTaskId").append('<option value=0>Select Task</option>');
+					$.ajax({
+						url: '@Url.Action("GetTaskDropDownByProjectId", "Home")',
+						dataType: "json",
+						type: 'POST',
+						contentType: "application/json; charset=utf-8",
+						data: JSON.stringify(jasonData),
+						success: function(data) {
+							$.each(data,
+								function(key, value) {
+									$("#ddlTaskId").append("<option value='" + value.ID + " '>" + value.Text + "</option>");
+								});
+						},
+					});
+					return false;
+				});
+				return false;
+			});
+			$("#ddlTaskId").change(function() {
+				var txt = "";
+				var counter = 1;				
+				var taskId = $("#ddlTaskId").val();
+				var jasonData = { taskId: taskId };
+				//$("#tblCmnt").append();
+				$.ajax({
+					url: '@Url.Action("GetCommentByTaskId", "Home")',
+					dataType: "json",
+					type: 'POST',
+					contentType: "application/json; charset=utf-8",
+					data: JSON.stringify(jasonData),
+					success: function(data) {
+						console.log(data);
+						$("#tblCmnt tbody").empty();
+						if (data.length !== 0) {
+							$.each(data,
+								function(index, row) {
+									txt += "<tr>" +
+										"<td><strong>" +
+										counter +
+										"</strong></td><td>" +
+										data[index].Cmnt +
+										"</td><td>" +
+										data[index].AssignBy +
+										"</td><td>" +
+										ToJavaScriptDate(data[index].CommentDateTime) +
+										"</td><td>" +
+										"</tr>";
+									counter++;									
+								});
+							$("#tblCmnt tbody").html(txt);							
+						}
+					}
+				});
+				return false;
+			});
+			function ToJavaScriptDate(value) {
+				var pattern = /Date\(([^)]+)\)/;
+				var results = pattern.exec(value);
+				var dt = new Date(parseFloat(results[1]));
+				return (dt.getMonth() + 1) + "/" + dt.getDate() + "/" + dt.getFullYear();
+			}
+		</script>
+	}

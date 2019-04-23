@@ -1,0 +1,295 @@
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\ApplicationInsights.config
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Project Management Tool.dll.config
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Project Management Tool.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Project Management Tool.pdb
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csc.exe
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csc.exe.config
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csc.rsp
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csi.exe
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csi.exe.config
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csi.rsp
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.AppContext.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Console.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.Compression.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Claims.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.ValueTuple.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\vbc.exe
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\vbc.exe.config
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\vbc.rsp
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\VBCSCompiler.exe
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Antlr3.Runtime.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.SqlServer.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.Web.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Newtonsoft.Json.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Helpers.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Mvc.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Optimization.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Razor.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Razor.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\WebGrease.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Antlr3.Runtime.pdb
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.SqlServer.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.Web.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Newtonsoft.Json.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Helpers.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Mvc.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Razor.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Razor.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Optimization.xml
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csprojResolveAssemblyReference.cache
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project_Management_Tool.Migrations.initial.resources
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.GenerateResource.cache
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.CoreCompileInputs.cache
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.CopyComplete
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.dll
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.pdb
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project_Management_Tool.Migrations.initial1.resources
+C:\Users\Optimas Prime\Documents\Visual Studio 2017\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project_Management_Tool.Migrations.initial2.resources
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\ApplicationInsights.config
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Project Management Tool.dll.config
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Project Management Tool.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Project Management Tool.pdb
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csc.exe
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csc.exe.config
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csc.rsp
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csi.exe
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csi.exe.config
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csi.rsp
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.AppContext.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Collections.Immutable.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Console.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.Process.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.Compression.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.FileSystem.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.Pipes.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Reflection.Metadata.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.AccessControl.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Claims.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Principal.Windows.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Threading.Thread.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.ValueTuple.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XmlDocument.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XPath.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\vbc.exe
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\vbc.exe.config
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\vbc.rsp
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\VBCSCompiler.exe
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\VBCSCompiler.exe.config
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Antlr3.Runtime.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.SqlServer.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.Agent.Intercept.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.DependencyCollector.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.Web.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.WindowsServer.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.ApplicationInsights.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.Web.Infrastructure.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Newtonsoft.Json.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Helpers.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Mvc.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Optimization.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Razor.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Deployment.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Razor.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\WebGrease.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Antlr3.Runtime.pdb
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.SqlServer.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.DependencyCollector.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.Web.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.WindowsServer.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.ApplicationInsights.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Newtonsoft.Json.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Helpers.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Mvc.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Razor.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Deployment.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Razor.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Optimization.xml
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csprojResolveAssemblyReference.cache
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project_Management_Tool.Migrations.initial.resources
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project_Management_Tool.Migrations.initial1.resources
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project_Management_Tool.Migrations.initial2.resources
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.GenerateResource.cache
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.CoreCompileInputs.cache
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.CopyComplete
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.dll
+F:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.pdb
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\ApplicationInsights.config
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Project Management Tool.dll.config
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Project Management Tool.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Project Management Tool.pdb
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csc.exe
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csc.exe.config
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csc.rsp
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csi.exe
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csi.exe.config
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\csi.rsp
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.AppContext.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Collections.Immutable.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Console.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.Process.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.Compression.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.FileSystem.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.IO.Pipes.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Reflection.Metadata.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.AccessControl.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Claims.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Security.Principal.Windows.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Threading.Thread.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.ValueTuple.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XmlDocument.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XPath.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\vbc.exe
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\vbc.exe.config
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\vbc.rsp
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\VBCSCompiler.exe
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\roslyn\VBCSCompiler.exe.config
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Antlr3.Runtime.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.SqlServer.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.Agent.Intercept.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.DependencyCollector.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.Web.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.WindowsServer.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.ApplicationInsights.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.Web.Infrastructure.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Newtonsoft.Json.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Helpers.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Mvc.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Optimization.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Razor.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Deployment.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Razor.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\WebGrease.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Antlr3.Runtime.pdb
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\EntityFramework.SqlServer.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.DependencyCollector.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.Web.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.AI.WindowsServer.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.ApplicationInsights.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\Newtonsoft.Json.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Helpers.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Mvc.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Razor.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Deployment.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.WebPages.Razor.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\bin\System.Web.Optimization.xml
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csprojAssemblyReference.cache
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.CoreCompileInputs.cache
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.CopyComplete
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.dll
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.pdb
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project_Management_Tool.Migrations.NewDatabase.resources
+E:\BilduNG\BITM(C#)\EntityFreamWorkProject\Project Management Tool\Project Management Tool\obj\Debug\Project Management Tool.csproj.GenerateResource.cache

@@ -1,0 +1,105 @@
+﻿@model Project_Management_Tool.Models.tb_UserInfo
+@{
+	ViewBag.Title = "EditUser";
+}
+<h2 align="center"><u><b>Edit User Information Entry</b></u></h2>
+@using (Html.BeginForm("EditUser", "Home", FormMethod.Post))
+{
+	@Html.AntiForgeryToken()
+	if (ViewBag.Massage != null)
+	{
+		<p>@ViewBag.Massage</p>
+	}
+	<div class="form-horizontal">
+		<hr />
+		@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+		@Html.HiddenFor(model => model.UserInfoId)
+		<div class="form-group">
+			@Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+			</div>
+		</div>
+		<div class="form-group">
+			@Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.Email, new { htmlAttributes = new { id = "txtEmail", @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+			</div>
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(model => model.DefaultPassword, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.DefaultPassword, new { htmlAttributes = new { id = "txtDefaultPassword", @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.DefaultPassword, "", new { @class = "text-danger" })
+			</div>
+		</div>
+		<div class="form-group">
+			@Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div>
+				<label>
+					@Html.RadioButtonFor(model => model.Status, true, new { @class = "radio-inline", id = "" })
+					<span>Active</span>
+				</label>
+				<label>
+					@Html.RadioButtonFor(model => model.Status, false, new { @class = "radio-inline", id = "" })
+					<span>InActive</span>
+				</label>
+				@Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+			</div>
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(model => model.Designation, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.DropDownListFor(model => model.Designation, ViewBag.Designations as SelectList, "---Select Designation---", new { id = "ddlOperationType", @class = "form-control", required = (string)null })
+				@Html.ValidationMessageFor(model => model.Designation, "", new { @class = "text-danger" })
+			</div>
+		</div>
+
+		<div class="form-group">
+			<div class="col-md-offset-4 col-md-12">
+				<div class="col-md-3">
+					<div class="col-md-3">
+						<input type="submit" value="Save" class="btn btn-primary">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+}
+
+
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+	<script>
+		$('#txtEmail').change(function () {
+			var a = $('#txtEmail').val();
+			$('#txtDefaultPassword').val(a + '123');
+
+		});
+
+	</script>
+	@*<script>
+			$('#Raw_ItemFK').on("change", function (e) {
+				if ($('#Raw_ItemFK').val() !== "--Select--") {
+					var Id = $('#Raw_ItemFK').val();
+					$.ajax({
+						type: "post",
+						url: "@Url.Action("Action","Controller")",
+						data: { RawItemID: Id },
+						datatype: "json",
+						traditional: true,
+						success: function (data) {
+							console.log(data);
+							$('#txtRequiredRequisitaion').val(data.RequiredQuantity + " " + data.UnitName);
+							$('#Common_UnitFK').val(data.Common_UnitFK);
+							$('#Consumption').val(data.Consumption);
+						}
+					});
+				}
+			});
+		</script>*@
+}

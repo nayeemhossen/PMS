@@ -1,0 +1,42 @@
+﻿@model List<Project_Management_Tool.Models.tb_ProjectInfo>
+@{
+	ViewBag.Title = "ProjectList";
+}
+<h2 align="center"><u><b>Project List</b></u></h2>
+<div>
+	<hr/>
+	<table width="100%" class="table table-striped" id="dataTable">
+		<thead>
+		<tr>
+			<th style="width: 17%">Name</th>
+			<th style="width: 7%">Code Name</th>
+			<th style="width: 20%">Description</th>
+			<th style="width: 8%">Start Date</th>
+			<th style="width: 8%">End Date</th>
+			<th style="width: 4%">Duration</th>
+			<th style="width: 10%">Status</th>
+			<th style="width: 19%">Action</th>
+		</tr>
+		</thead>
+		<tbody>
+		@{
+			foreach (var tbProjectDetails in Model)
+			{<tr>
+				 <td>@tbProjectDetails.Name</td>
+				 <td>@tbProjectDetails.CodeName</td>
+				 <td>@tbProjectDetails.Description</td>
+				 <td>@tbProjectDetails.StartDate.ToString("dd-MMM-yy")</td>
+				 <td>@tbProjectDetails.EndDate.ToString("dd-MMM-yy")</td>
+				 <td>@tbProjectDetails.Duration</td>
+				 <td>@tbProjectDetails.Status</td>			
+				 <td>
+				 	<a href="@Url.Action("ProjectDetails","Home",new{projectId=tbProjectDetails.ProjectInfoId})" class="btn btn-primary">Details</a>
+				 	<a href="@Url.Action("EditProject","Home",new{projectId=tbProjectDetails.ProjectInfoId})" class="btn btn-primary">Update</a>
+				 	<a href="@Url.Action("DeleteProject","Home",new{projectId=tbProjectDetails.ProjectInfoId})" class="btn btn-danger">Delete</a>
+				 </td>
+			 </tr>
+			}
+		}
+		</tbody>
+	</table>
+</div>

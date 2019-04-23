@@ -1,0 +1,191 @@
+﻿@model Project_Management_Tool.Models.tb_ProjectInfo
+@{
+	ViewBag.Title = "SaveProject";
+}
+<h2 align="center"><u><b>Save Project</b></u></h2>
+
+@using (Html.BeginForm("SaveProject", "Home", FormMethod.Post, new { id = "projectInfo", enctype = "multipart/form-data" }))
+{
+	@Html.AntiForgeryToken()
+	if (ViewBag.Massage != null)
+	{
+		<p>@ViewBag.Massage</p>
+	}
+	<div class="form-horizontal">
+		<hr />
+		@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+		<div class="form-group">
+			@Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.Name, new { htmlAttributes = new { id = "txtName", @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+			</div>
+		</div>
+		<div class="form-group">
+			@Html.LabelFor(model => model.CodeName, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.CodeName, new { htmlAttributes = new { id = "txtCodeName", @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.CodeName, "", new { @class = "text-danger" })
+			</div>
+		</div>
+		<div class="form-group">
+			@Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.TextAreaFor(model => model.Description, new { @class = "form-control" })
+				@Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+			</div>
+		</div>
+		<div class="form-group">
+			@Html.LabelFor(model => model.StartDate, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.TextBoxFor(model => model.StartDate, new { id = "txtStartDate", @class = "date-picker form-control" })
+				@Html.ValidationMessageFor(model => model.StartDate, "", new { @class = "text-danger" })
+			</div>
+		</div>
+		<div class="form-group">
+			@Html.LabelFor(model => model.EndDate, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.TextBoxFor(model => model.EndDate, new { id = "txtEndDate", @class = "date-picker form-control" })
+				@Html.ValidationMessageFor(model => model.EndDate, "", new { @class = "text-danger" })
+			</div>
+		</div>
+		<div class="form-group">
+			@Html.LabelFor(model => model.Duration, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.Duration, new { htmlAttributes = new { id = "txtDuration", @class = "form-control", onfocus = "blur()" } })
+				@Html.ValidationMessageFor(model => model.Duration, "", new { @class = "text-danger" })
+			</div>
+		</div>
+		<div class="form-group">
+			@Html.LabelFor(model => model.UploadFile, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@*@Html.EditorFor(model => model.UploadFile, new { htmlAttributes = new { @class = "form-control" } })*@
+				<input type="file" id="projectFile" name="ProjectFile" class="form-control" />
+				@Html.ValidationMessageFor(model => model.UploadFile, "", new { @class = "text-danger" })
+			</div>
+		</div>
+		<div class="form-group">
+			@Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				<div class="col-md-6">
+					<div class="col-md-7">
+						<div class="row">
+							@Html.RadioButtonFor(model => model.Status, "Not Started")
+							<span>Not Started</span>
+						</div>
+						<div class="row">
+							@Html.RadioButtonFor(model => model.Status, "Started")
+							<span>Started</span>
+						</div>
+						<div class="row">
+							@Html.RadioButtonFor(model => model.Status, "Completed")
+							<span>Completed</span>
+						</div>
+						<div class="row">
+							@Html.RadioButtonFor(model => model.Status, "Not Completed")
+							<span>Not Completed</span>
+						</div>
+						<div class="row">
+							@Html.RadioButtonFor(model => model.Status, "Cancelled")
+							<span>Cancelled</span>
+						</div>					
+						<div class="row">
+							@Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-md-offset-2 col-md-10">
+				<input type="submit" value="Save" class="btn btn-primary " />
+			</div>
+		</div>
+	</div>
+}
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+	<script type="text/javascript">
+		//"date-picker" into a DatePicker element
+		$(function () {
+			$('.date-picker').datepicker();
+		});
+		var catchStartDate = "";
+		var catchEndDate = "";
+		// Date difference
+		var dateDifference = function (day1, day2) {
+			var differene = Math.abs(day1 - day2);
+			if (Math.floor(differene / 86400000)) {
+				return Math.floor(differene / 86400000) + " days";
+			} else {
+				return "N/A";
+			}
+		};
+		// Text box change
+		$('#txtStartDate').change(function () {
+			catchStartDate = $('#txtStartDate').val();
+			if (jQuery.trim($('#txtStartDate').val()).length > 0 && jQuery.trim($('#txtEndDate').val()).length > 0) {
+				if (Date.parse($('#txtStartDate').val()) < Date.parse($('#txtEndDate').val())) {
+					if (ValidateDate(catchEndDate) && ValidateDate(catchStartDate)) {
+						var difference = dateDifference(new Date(catchEndDate), new Date(catchStartDate));
+						$('#txtDuration').val(difference);
+					} else {
+						$('#txtDuration').val("");
+					}
+				} else {
+					alert("start date cannot grether than end date");
+					$('#txtDuration').val("");
+					$('#txtStartDate').val("");
+					$('#txtEndDate').val("");
+				}
+			}
+		});
+		$('#txtEndDate').change(function () {
+			catchEndDate = $('#txtEndDate').val();
+			if (jQuery.trim($('#txtStartDate').val()).length > 0 && jQuery.trim($('#txtEndDate').val()).length > 0) {
+				if (Date.parse($('#txtStartDate').val()) < Date.parse($('#txtEndDate').val())) {
+					if (ValidateDate(catchEndDate) && ValidateDate(catchStartDate)) {
+						var difference = dateDifference(new Date(catchEndDate), new Date(catchStartDate));
+						$('#txtDuration').val(difference);
+					} else {
+						$('#txtDuration').val("");
+					}
+				} else {
+					alert("start date cannot grether than end date");
+					$('#txtDuration').val("");
+					$('#txtStartDate').val("");
+					$('#txtEndDate').val("");
+				}
+			}
+		});
+
+		//date validation
+		function ValidateDate(dtValue) {
+			var dtRegex = new RegExp(/\b\d{1,2}[\/-]\d{1,2}[\/-]\d{4}\b/);//Date formate checkup.
+			return dtRegex.test(dtValue);
+		}
+
+		//On Text change
+		jQuery(function ($) {
+			$('#txtStartDate').on('keyup',
+				function () {
+					if (!ValidateDate($('#txtStartDate').val())) {
+						$('#txtDuration').val("");
+						$('#txtStartDate').val("");
+						alert("Invalid Date Format");
+					}
+				});
+		});
+		jQuery(function ($) {
+			$('#txtEndDate').on('keyup',
+				function () {
+					if (!ValidateDate($('#txtEndDate').val())) {
+						$('#txtDuration').val("");
+						$('#txtEndDate').val("");
+						alert("Invalid Date Format");
+					}
+				});
+		});
+	</script>
+}

@@ -1,0 +1,71 @@
+﻿@model Project_Management_Tool.Models.tb_AssignPerson
+@{
+	ViewBag.Title = "AssignResorcePerson";
+}
+<h2 align="center"><u><b>Assign Resource Person</b></u></h2>
+@using (Html.BeginForm("AssignResourcePerson", "Home"))
+{
+	@Html.AntiForgeryToken()
+	if (ViewBag.Massage != null)
+	{
+		<p>@ViewBag.Massage</p>
+	}
+	<div class="form-horizontal">
+		<hr />
+		@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+		<div class="form-group">
+			@Html.Label("Select Project", htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.DropDownList("ProjectId", ViewBag.ProjectName as SelectList, "--Select Project Name--", new { @id = "ProjectId", @class = "form-control col-md-6 col-xs-6" })
+				@Html.ValidationMessage("", new { @class = "text-danger" })
+			</div>
+		</div>
+		<div class="form-group">
+			@Html.Label("Select Resource Person", htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.DropDownList("UserId", ViewBag.UserName as SelectList, "--Select Resource Person--", new { @id = "UserId", @class = "form-control col-md-6 col-xs-6" })
+				@Html.ValidationMessage("", new { @class = "text-danger" })
+			</div>
+		</div>
+
+		<div class="form-group">
+			<div class="col-md-offset-4 col-md-12">
+				<div class="col-md-3">
+					<div class="col-md-3">
+						<input type="submit" value="Save" class="btn btn-primary" id="btnSave">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<h2 align="center"><u><b>Assign Person List</b></u></h2>
+	<div>
+		<hr />
+		<table width="100%" class="table-bordered">
+			<thead>
+				<tr>
+					<th style="width: 42%">Project Name</th>
+					<th style="width: 28%">Person Name</th>
+					<th style="width: 30%">Person Designation</th>
+				</tr>
+			</thead>
+			<tbody>
+				@{ if (ViewBag.assignPersonList != null)
+					{
+						foreach (var assignPersonDetails in ViewBag.assignPersonList)
+						{
+							<tr>
+								<td>@assignPersonDetails.ProjectName</td>
+								<td>@assignPersonDetails.PersonName</td>
+								<td>@assignPersonDetails.PersonDesignation</td>
+							</tr>
+						}
+					}
+				}
+			</tbody>
+		</table>
+	</div>
+}
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+}

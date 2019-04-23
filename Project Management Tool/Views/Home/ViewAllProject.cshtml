@@ -1,0 +1,33 @@
+﻿@model List<Project_Management_Tool.Models.ViewAllProjectList>
+@{
+	ViewBag.Title = "ViewAllProjects";
+}
+<h2 align="center"><u><b>View All Projects in Which You Are Involved</b></u></h2>
+<div>
+	<hr/>
+	<table width="100%" class="table table-striped">
+		<thead>
+		<tr>
+			<th style="width: 30%">Name</th>
+			<th style="width: 12%">Short Name</th>			
+			<th style="width: 10%">Status</th>			
+			<th style="width: 28%">Number of Member</th>			
+			<th style="width: 20%">Number of Task</th>			
+		</tr>
+		</thead>
+		<tbody>
+		@{
+			foreach (var tbProjectDetails in Model)
+			{<tr>
+				 <td>@tbProjectDetails.Name</td>
+				 <td>@tbProjectDetails.CodeName</td>
+				 <td>@tbProjectDetails.Status</td>			
+				 <td>@tbProjectDetails.NoOfMember</td>			
+				 <td>@tbProjectDetails.NoOfTask</td>			
+				 
+			 </tr>
+			}
+		}
+		</tbody>
+	</table>
+</div>

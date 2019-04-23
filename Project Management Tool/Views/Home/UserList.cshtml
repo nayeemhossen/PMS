@@ -1,0 +1,49 @@
+﻿@model List<Project_Management_Tool.Models.tb_UserInfo>
+
+@{
+	ViewBag.Title = "User List";
+}
+<h2 align="center"><u><b>User List</b></u></h2>
+<div>
+	<hr />
+	<table width="100%" class="table table-striped">
+		<thead>
+			<tr>
+				<th style="width: 15%">Name</th>
+				<th style="width: 15%">Email</th>
+				<th style="width: 15%">Designation</th>
+				<th style="width: 15%">Status</th>
+				<th style="width: 12%">Reset Password</th>
+				<th style="width: 10%">Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				foreach (var tbUserInfo in Model)
+				{
+					<tr>
+						<td>@tbUserInfo.Name</td>
+						<td>@tbUserInfo.Email</td>
+						<td>@tbUserInfo.Designation</td>
+						@*<td>@tbUserInfo.Status</td>*@
+						@if (tbUserInfo.Status) //status bool
+						{
+							<td>Active</td>
+						}
+						else
+						{
+							<td>Inactive</td>
+						}
+							<td>
+								<a href="@Url.Action("EditUser","Home",new{userId=tbUserInfo.UserInfoId})" class="btn-block">Reset as Default</a>
+							</td>
+						<td>
+							<a href="@Url.Action("EditUser","Home",new{userId=tbUserInfo.UserInfoId})" class="btn btn-primary">  Edit </a>
+							<a href="@Url.Action("DeleteUser","Home",new{userId=tbUserInfo.UserInfoId})" class="btn btn-danger">Delete</a>
+						</td>
+					</tr>
+				}
+			}
+		</tbody>
+	</table>
+</div>
